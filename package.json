@@ -1,0 +1,20 @@
+{
+  "name": "gemworks_configure_rarities",
+  "version": "0.1.0",
+  "description": "",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@gemworks/gem-farm-ts": "^0.1.5",
+    "@metaplex/js": "^4.12.0",
+    "@project-serum/anchor": "^0.21.0",
+    "@solana/web3.js": "^1.34.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  },
+  "scripts": {
+    "execute": "ts-node set_rarity.ts"
+  }
+}
